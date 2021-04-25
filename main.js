@@ -14,7 +14,7 @@ casper.start(url,function(){
   
 });
 casper.then(function(){
-    casper.sendKeys('input#login','alex.duguy@viacesi.fr');
+    casper.sendKeys('input#login','email');
     this.click("a.submit");
     console.log("PAGE 1 OK");
     
